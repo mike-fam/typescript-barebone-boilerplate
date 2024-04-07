@@ -1,0 +1,17 @@
+{
+  "name": "typescript-barebone-boilerplate",
+  "version": "1.0.0",
+  "description": "Minimum boilerplate script for TypeScript",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc --outDir dist src/main.ts"
+  },
+  "keywords": [],
+  "author": "Mike Pham",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  }
+}
